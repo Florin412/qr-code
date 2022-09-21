@@ -27,6 +27,7 @@ body {
   box-shadow: 10px 28px 39px 0px hsl(212deg, 45%, 89%);
   margin-bottom: 2rem;
   transition: scale 0.2s;
+  animation: qr_code_animation_scale 0.3s linear backwards;
 }
 .qr-container:hover {
   scale: 1.05;
@@ -47,6 +48,19 @@ body {
   text-align: center;
   font-size: 15px;
   margin-bottom: 1.5rem;
+}
+
+@keyframes qr_code_animation_scale {
+  from {
+    scale: 0;
+    opacity: 0;
+    rotate: 0deg;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+    rotate: 360deg;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

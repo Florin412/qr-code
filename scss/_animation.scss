@@ -1,0 +1,13 @@
+@keyframes qr_code_animation_scale {
+  from {
+    scale: 0;
+    opacity: 0;
+    rotate: 0deg;
+  }
+
+  to {
+    scale: 1;
+    opacity: 1;
+    rotate: 360deg;
+  }
+}
