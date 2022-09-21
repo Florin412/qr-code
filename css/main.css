@@ -28,6 +28,7 @@ body {
   margin-bottom: 2rem;
   transition: scale 0.2s;
   animation: qr_code_animation_scale 0.3s linear backwards;
+  transform-origin: center;
 }
 .qr-container:hover {
   scale: 1.05;

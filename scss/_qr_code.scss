@@ -13,6 +13,7 @@
   margin-bottom: 2rem;
   transition: scale 0.2s;
   animation: qr_code_animation_scale 0.3s linear backwards;
+  transform-origin: center;
 
   &:hover {
     scale: 1.05;
