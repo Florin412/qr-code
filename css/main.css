@@ -26,6 +26,10 @@ body {
   max-width: 340px;
   box-shadow: 10px 28px 39px 0px hsl(212deg, 45%, 89%);
   margin-bottom: 2rem;
+  transition: scale 0.2s;
+}
+.qr-container:hover {
+  scale: 1.05;
 }
 .qr-container .qr-code .qr-img {
   max-width: 100%;
